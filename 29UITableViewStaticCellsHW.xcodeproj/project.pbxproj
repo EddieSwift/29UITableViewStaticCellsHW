@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2C48BF4A21FC723F00DE8803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C48BF4921FC723F00DE8803 /* AppDelegate.m */; };
-		2C48BF4D21FC723F00DE8803 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C48BF4C21FC723F00DE8803 /* ViewController.m */; };
 		2C48BF5021FC723F00DE8803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C48BF4E21FC723F00DE8803 /* Main.storyboard */; };
 		2C48BF5221FC724000DE8803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C48BF5121FC724000DE8803 /* Assets.xcassets */; };
 		2C48BF5521FC724000DE8803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C48BF5321FC724000DE8803 /* LaunchScreen.storyboard */; };
 		2C48BF5821FC724000DE8803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C48BF5721FC724000DE8803 /* main.m */; };
+		2C48BF6021FC733400DE8803 /* EGBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C48BF5F21FC733400DE8803 /* EGBTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C48BF4521FC723F00DE8803 /* 29UITableViewStaticCellsHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 29UITableViewStaticCellsHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C48BF4821FC723F00DE8803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C48BF4921FC723F00DE8803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C48BF4B21FC723F00DE8803 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C48BF4C21FC723F00DE8803 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2C48BF4F21FC723F00DE8803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C48BF5121FC724000DE8803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C48BF5421FC724000DE8803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C48BF5621FC724000DE8803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C48BF5721FC724000DE8803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C48BF5E21FC733400DE8803 /* EGBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGBTableViewController.h; sourceTree = "<group>"; };
+		2C48BF5F21FC733400DE8803 /* EGBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGBTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 		2C48BF4721FC723F00DE8803 /* 29UITableViewStaticCellsHW */ = {
 			isa = PBXGroup;
 			children = (
+				2C48BF5E21FC733400DE8803 /* EGBTableViewController.h */,
+				2C48BF5F21FC733400DE8803 /* EGBTableViewController.m */,
 				2C48BF4821FC723F00DE8803 /* AppDelegate.h */,
 				2C48BF4921FC723F00DE8803 /* AppDelegate.m */,
-				2C48BF4B21FC723F00DE8803 /* ViewController.h */,
-				2C48BF4C21FC723F00DE8803 /* ViewController.m */,
 				2C48BF4E21FC723F00DE8803 /* Main.storyboard */,
 				2C48BF5121FC724000DE8803 /* Assets.xcassets */,
 				2C48BF5321FC724000DE8803 /* LaunchScreen.storyboard */,
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C48BF4D21FC723F00DE8803 /* ViewController.m in Sources */,
 				2C48BF5821FC724000DE8803 /* main.m in Sources */,
+				2C48BF6021FC733400DE8803 /* EGBTableViewController.m in Sources */,
 				2C48BF4A21FC723F00DE8803 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
